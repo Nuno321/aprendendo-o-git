@@ -1,0 +1,60 @@
+h1, h2, p {
+    text-align: center;
+    font-family: Arial;
+    line-height: 25px;
+}
+
+h2{
+    color: darkgreen;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    text-align: center;
+    padding: 25px;
+    margin-top: 240px;
+
+
+}
+box-shadow: 0px 0px 35px 5px black;
+
+.apresentacao{
+    background: white;
+    position: absolute;
+    bottom: 15px;
+    left: 130px;
+    padding: 20px;
+    width: 668px;
+}
+
+.posicaoBaixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tabelaPreco{
+    width: 340px;
+    background: teal;
+    position: absolute;
+    left: 140px;
+  
+}
+
+.proveitos{
+    width: 295px;
+    background: rgb(5, 202, 202);
+    position: absolute;
+    right: 165px;
+
+    margin: 0px;
+    padding: 6px;
+
+}
+
+.sub-titulo{
+    font-size: 20px;
+}
+
+

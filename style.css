@@ -1,0 +1,131 @@
+
+/*tags cruciais*/
+h1, h2, p, ul {
+    line-height: 27px;
+}
+
+h1{
+    font-size: 26px;
+    text-shadow: 1px 1px black;
+}
+h2{
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+}
+
+p, ul{
+    font-size: 18px;
+}
+
+li{
+    margin-left: 1px;
+    padding: 2px;
+}
+
+li:before{
+    content: "𐤟";
+}
+
+em{
+    font-size: 1.5em;
+}
+
+body{
+
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.caixa{
+    width: 940px;
+    margin:auto;
+    margin-top: 130px;
+}
+/**/
+/*tag menores*/
+.sub-titulo{
+    color: cornsilk;
+}
+
+.conteudo{
+    color: cornsilk;
+    text-shadow: 1px 1px black;
+}
+
+.preco{
+    color: cornsilk;
+    text-shadow: 1px 1px black;
+    text-align:start;
+    padding: 4px;
+}
+/**/
+/*especificas*/
+.box1-cor-do-titulo{
+    color: rgb(3, 164, 228);
+}
+
+.box1-cor-do-sub-titulo{
+    color: rgb(134, 216, 3);
+}
+/**/
+/*tag das caixas principais*/
+.apresentacao{
+ background: rgb(231, 231, 231);
+ width: 72%;
+ padding: 61px;
+ margin: auto;
+ margin-left: 55px; 
+ border-radius: 10px 10px 0px 0px;
+
+}
+
+#flexbox{
+margin-left: 55px;
+width: 940px;
+
+
+}
+
+.tabelaPreco {
+    background:rgb(3, 173, 179);
+    display: inline-block;
+    vertical-align: top;
+    padding: 35px;
+    width: 35%;
+    border-radius: 0px 0px 0px 10px;
+}
+
+
+.proveitos{
+    background: rgb(3, 185, 170);
+    display: inline-block;
+    padding: 35px;
+    height: 180px;
+    width: 35%;
+    border-radius: 0px 0px 10px 0px;
+    margin-left: -4px;
+    
+   
+}
+/**/
+/*tags do botão*/
+#botao{
+    width: 60%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 60px;
+    color:white;
+    background-color: rgb(51, 167, 51);
+    border:none;
+    border-radius: 5px;
+    font-style: bold;
+    font-size: 22px;
+    text-align: center;
+    transition: 0.5s ;
+}
+#botao:hover{
+    background-color:darkgreen ;
+}
+
+/**/
